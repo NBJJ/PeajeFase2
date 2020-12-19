@@ -8,10 +8,10 @@ public class Cabina {
 		
 		//Creamos un objeto peaje para enviar los parámetros iniciales 
 		Peaje peaje1 = new Peaje();
-		peaje1.Turnos(3);
-		peaje1.mostrarRecaudacion(1);
+		Menu menu = new Menu();
+		menu.menu();
 		peaje1.GuardarDatosHashmap();
-
+	
 		
 	}	
 	
